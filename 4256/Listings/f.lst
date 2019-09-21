@@ -1,0 +1,34 @@
+C51 COMPILER V9.57.0.0   F                                                                 07/09/2019 11:53:54 PAGE 1   
+
+
+C51 COMPILER V9.57.0.0, COMPILATION OF MODULE F
+OBJECT MODULE PLACED IN .\Objects\f.obj
+COMPILER INVOKED BY: C:\Keil_v5\C51\BIN\C51.EXE f.c OPTIMIZE(8,SPEED) BROWSE DEBUG OBJECTEXTEND PRINT(.\Listings\f.lst) 
+                    -TABS(2) OBJECT(.\Objects\f.obj)
+
+line level    source
+
+   1          #include<at89c51xd2.h>
+   2          #include<stdio.h>
+   3          void main()
+   4          {
+   5   1        int a=0x100,b=0x200;
+   6   1        P0=a+b;
+   7   1        P1=a-b;
+   8   1        P2=a*b;
+   9   1        P3=a/b;
+  10   1      }
+
+
+MODULE INFORMATION:   STATIC OVERLAYABLE
+   CODE SIZE        =     32    ----
+   CONSTANT SIZE    =   ----    ----
+   XDATA SIZE       =   ----    ----
+   PDATA SIZE       =   ----    ----
+   DATA SIZE        =   ----    ----
+   IDATA SIZE       =   ----    ----
+   BIT SIZE         =   ----    ----
+END OF MODULE INFORMATION.
+
+
+C51 COMPILATION COMPLETE.  0 WARNING(S),  0 ERROR(S)
